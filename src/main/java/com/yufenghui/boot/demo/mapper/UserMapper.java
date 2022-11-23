@@ -15,4 +15,6 @@ public interface UserMapper {
 
     UserEntity getUserById(Map<String, Object> param);
 
+    void updateUserName(Map<String, Object> param);
+
 }

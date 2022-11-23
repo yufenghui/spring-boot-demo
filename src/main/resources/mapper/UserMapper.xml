@@ -10,4 +10,8 @@
         where id = #{id} and 1 = 1
     </select>
 
+    <update id="updateUserName" parameterType="java.util.Map">
+        update user set name = #{name}
+    </update>
+
 </mapper>
