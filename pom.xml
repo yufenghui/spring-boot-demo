@@ -20,6 +20,7 @@
 
         <spring.boot.version>2.3.12.RELEASE</spring.boot.version>
 
+        <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
     </properties>
 
     <dependencyManagement>
