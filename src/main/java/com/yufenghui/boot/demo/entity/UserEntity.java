@@ -14,6 +14,8 @@ import com.baomidou.mybatisplus.annotation.TableName;
 @TableName("user")
 public class UserEntity {
 
+    private static final String Hello_WORLD = "Hello WOLD";
+
     @TableId(type = IdType.AUTO)
     private Long id;
 
