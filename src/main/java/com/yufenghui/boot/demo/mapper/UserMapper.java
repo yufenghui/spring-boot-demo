@@ -17,4 +17,6 @@ public interface UserMapper {
 
     void updateUserName(Map<String, Object> param);
 
+    void deleteUser(Map<String, Object> param);
+
 }
