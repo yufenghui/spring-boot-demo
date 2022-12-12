@@ -14,8 +14,8 @@
         update user set name = #{name}
     </update>
 
-    <update id="deleteUser" parameterType="java.util.Map">
+    <delete id="deleteUser" parameterType="java.util.Map">
         delete from user
-    </update>
+    </delete>
 
 </mapper>
