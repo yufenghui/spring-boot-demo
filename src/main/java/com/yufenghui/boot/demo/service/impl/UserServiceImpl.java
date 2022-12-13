@@ -1,6 +1,8 @@
 package com.yufenghui.boot.demo.service.impl;
 
+import com.yufenghui.boot.demo.mapper.UserMapper;
 import com.yufenghui.boot.demo.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,6 +14,9 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserServiceImpl implements UserService {
+
+    @Autowired
+    private UserMapper UserMapper;
     
     @Override
     public void getUser() {

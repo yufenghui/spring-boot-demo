@@ -1,6 +1,7 @@
 package com.yufenghui.boot.demo.mapper;
 
 import com.yufenghui.boot.demo.entity.UserEntity;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.Map;
 
@@ -11,6 +12,7 @@ import java.util.Map;
  * @author yufenghui
  * @date 2022/11/23 10:29
  */
+@Mapper
 public interface UserMapper {
 
     UserEntity getUserById(Map<String, Object> param);
