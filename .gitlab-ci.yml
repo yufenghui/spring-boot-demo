@@ -8,7 +8,7 @@ sonarqube-check:
     paths:
       - .sonar/cache
   script:
-    - mvn verify sonar:sonar -Dsonar.projectKey=yfh_spring-boot-demo_AYSjcnvVPMfwTje1qIJj -Dsonar.sources=.
+    - mvn verify sonar:sonar -Dsonar.projectKey=yfh_spring-boot-demo_AYUKvKAMMh0ls-gO_jH0j -Dsonar.sources=.
   allow_failure: true
   only:
     - master # or the name of your main branch
