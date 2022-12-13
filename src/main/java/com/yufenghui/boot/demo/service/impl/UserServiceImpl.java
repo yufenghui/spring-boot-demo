@@ -24,7 +24,6 @@ public class UserServiceImpl implements UserService {
                 System.out.println("xxxxxxxxxxx");
             }
 
-            System.out.println("xxxxxxxxxxx");
         }
         
     }
