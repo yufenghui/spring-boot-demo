@@ -12,6 +12,7 @@
     <modules>
         <module>standard</module>
         <module>nacos-boot</module>
+        <module>nacos-cloud</module>
     </modules>
 
     <properties>
@@ -47,6 +48,17 @@
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+            <version>1.8.3</version>
+        </dependency>
 
         <dependency>
             <groupId>cn.hutool</groupId>
